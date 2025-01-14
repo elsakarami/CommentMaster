@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "content": "This is a top-level comment.",
+      "parentId": null,
+      "children": [
+        {
+          "id": 2,
+          "content": "This is a reply to the first comment.",
+          "parentId": 1,
+          "children": [
+            {
+              "id": 6,
+              "content": "This is a nested reply to comment 2.",
+              "parentId": 2,
+              "children": []
+            },
+            {
+              "id": 12,
+              "content": "This is a nested reply to comment 2.",
+              "parentId": 2,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "content": "This is another reply to the first comment.",
+          "parentId": 1,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "content": "Another top-level comment.",
+      "parentId": null,
+      "children": [
+        {
+          "id": 5,
+          "content": "This is a reply to the second top-level comment.",
+          "parentId": 4,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "content": "A third top-level comment with no replies yet.",
+      "parentId": null,
+      "children": []
+    }
+  ]
